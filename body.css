@@ -41,29 +41,18 @@
   background-color: rgb(157, 179, 200);
 }
 .exercises-sets {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 250px 50px;
   height: 450px;
-}
-.exercises {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  flex: 8;
 }
 .exercise {
   text-align: center;
   color: rgb(222, 219, 219);
   font-size: 20px;
-  background-color: brown;
-}
-.sets {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  flex: 1;
 }
 .sets-reps {
-  background-color: chartreuse;
   text-align: right;
+  color: rgb(222, 219, 219);
+  font-size: 20px;
+  background-color: rgb(89, 88, 124);
 }
